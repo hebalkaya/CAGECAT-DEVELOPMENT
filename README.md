@@ -38,7 +38,7 @@ docker build -t cagecat-dev .
 
 ### Notes
 - You should do this on the server.
-- Optional: Use the terminal on VS Code to log in to the server. It will be easier to use VS Code from this point on.
+- **Optional**: Use the terminal on VS Code to log in to the server. It will be easier to use VS Code from this point on.
 - It is crucial at this step that you have same GitHub login credentials configured on your server user. Otherwise, you won't be able to commit changes.
 - If you have traditionally named your fork repository CAGECAT, you only need to replace the ```https://github.com/hebalkaya/``` with your own repository. Otherwise, you also have to change the CAGECAT repo name in ```mv CAGECAT /repo```.
   E.g. if you have changed your repository name to CAGECAT-DEV: ```RUN git clone https://github.com/[username]/CAGECAT-DEV && mv CAGECAT-DEV /repo```
