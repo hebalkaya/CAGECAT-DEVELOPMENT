@@ -66,7 +66,17 @@ Command + Shift + P > Dev Containers: Attach to Running Container...
 - The ```-v``` flags indicate database bind mounts. We do not clone the databases into the container for now as they occupy a large space. Instead, they are "mirrored" with bind mounts. The container listens to them externally.
 - The ```-p 5364:88``` is for port forwarding. CAGECAT is exposed on port 88 internally in the container, 5364 externally in the container.
 
-## 4. Test configuration
+## 4. Copy sensitive files
+Sensitive files are not publicly exposed due to their sensitive nature. We have to manually copy them into the container.
+
+### Notes
+- These sensitive files are already included in the .gitignore. They won't be uploaded to your GitHub repository.
+- Important: Do not remove these files from .gitignore as it will compramise the security of CAGECAT web server.
+
+
+
+
+## 5. Test configuration
 If you haven't had any issues until this step, you are now ready for development.
 - You can make a minor change and try committing to Github.
 
