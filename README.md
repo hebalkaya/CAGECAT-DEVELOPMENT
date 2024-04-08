@@ -68,7 +68,7 @@ Command + Shift + P > Dev Containers: Attach to Running Container...
 - The ```-p 5364:88``` is for port forwarding. CAGECAT is exposed on port 88 internally in the container, 5364 externally in the container.
 
 ## 4. Copy sensitive files
-Sensitive files are not publicly exposed due to their sensitive nature. We have to manually copy them into the container.
+Sensitive files are not publicly exposed due to privacy reasons. We have to manually copy them into the container.
 
 ### To Do
 
