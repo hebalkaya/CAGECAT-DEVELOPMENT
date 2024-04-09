@@ -89,20 +89,18 @@ Command + Shift + P > Dev Containers: Attach to Running Container...
 - Navigate to config_files > config.py and replace the domain variable from ```domain = 'https://cagecat.bioinformatics.nl/'``` to ```domain = '127.0.0.1:5364/'```.
 
 
-
 ### Notes
-- These sensitive files are already included in the .gitignore. They won't be uploaded to your GitHub repository.
-- Important: Do not remove these files from .gitignore as it will compramise the security of CAGECAT web server.
+- These ```sensitive.py``` is already included in the .gitignore. It won't be uploaded to your GitHub repository.
+- Important: Do not remove the config_files from .gitignore as it will compramise the security of CAGECAT web server.
 - The ```docker cp``` command to copy files should be run outside of the container.
 
 ## 5. Restart docker container
-We need to restart the docker container 
+We need to restart the docker container for changes on ```sensitive.py``` to take place.
 ```
-docker restart cagecat_dev
+docker restart cagecat-dev-env
 ```
 
-
-## 5. Test configuration
+## 6. Test configuration
 If you haven't had any issues until this step, you are now ready for development.
 - You can make a minor change and try committing to Github.
 
