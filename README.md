@@ -73,9 +73,9 @@ Sensitive files are not publicly exposed due to privacy reasons. We have to manu
 ### To Do
 - Copy the sensitive.py into the running container.
 ```
-docker cp 
+docker cp config_files/sensitive.py cagecat-dev-env://repo/config_files/
 ```
-- Attach to container in VS Code.
+- Attach to container in VS Code (Enter the docker container).
 For Mac users:
 ```
 Command + Shift + P > Dev Containers: Attach to Running Container...
