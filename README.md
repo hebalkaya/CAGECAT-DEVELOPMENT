@@ -81,8 +81,9 @@ For Mac users:
 Command + Shift + P > Dev Containers: Attach to Running Container...
 ```
 - Select your container to attach.
-- If you don't see the files on your left, go to terminal tab, click on new terminal.
-- - ```cd //repo/```
+- If you don't see the files on the explorer tab:
+  - Go to terminal tab, click on new terminal.
+  - ```cd //repo/```
   - ``ls``: Here you must see the contents of the flask app
   - ```code .```: This will attach all the files in the repo directory to your VS Code working environment.
 - Navigate to config_files > config.py and replace the domain variable from ```domain = 'https://cagecat.bioinformatics.nl/'``` to ```domain = '127.0.0.1:5364/'```.
