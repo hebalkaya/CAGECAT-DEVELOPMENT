@@ -7,3 +7,7 @@ docker build -t v2-tbd .
 ```
 docker run -d   --name v2-tbd-env   -p 5364:88   v2-tbd
 ```
+
+```
+docker run -d --name v2-tbd-env -p 5364:88 v2-tbd
+```
