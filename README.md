@@ -8,7 +8,7 @@ This repository has been initiated to help you navigate through the steps for co
 - I suggest to use Microsoft's VS Code as it supports all the features mentioned here in this documentation. You can have the full version of VS Code with your WUR (education) email.
 - There is an additional instructional file on prerequisite configurations. Please check it out before starting with the instructions here.
 - You need Docker rights on the server(s) you will be developing.
-- This repository helps you set up a development environment for the currently live version of cagecat at: https://cagecat.bioinformatics.nl developed by Matthias van den Belt and not the new version developed by Hasan Emin Balkaya.
+- This repository helps you set up a development environment for the currently live version of cagecat at: https://cagecat.bioinformatics.nl developed by Matthias van den Belt (https://github.com/malanjary-wur/CAGECAT) and not the new version developed by Hasan Emin Balkaya.
 
 ## Instructions
 ## 1. Fork your own repository on Github
